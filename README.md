@@ -9,4 +9,6 @@ Data collection
 
 2. Second, download the SSUB dataset from https://github.com/wolverton-research-group/qmpy/blob/master/qmpy/data/thermodata/ssub.dat, and use the provided script to clean the SSUB dataset.
 
-3. 
+3. Then, download the IIT database from https://figshare.com/collections/Experimental_formation_enthalpies_for_intermetallic_phases_and_other_inorganic_compounds/3822835, and use the provided script to clean the IIT dataset.
+
+4. Finally use the script to combine the two datasets. The random seed to make training/test set split is 11.
