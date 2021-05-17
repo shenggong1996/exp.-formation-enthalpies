@@ -12,3 +12,14 @@ Data collection
 3. Then, download the IIT database from https://figshare.com/collections/Experimental_formation_enthalpies_for_intermetallic_phases_and_other_inorganic_compounds/3822835, and use the provided script to clean the IIT dataset.
 
 4. Finally use the script to combine the two datasets. The random seed to make training/test set split is 11.
+
+**************************
+Training procedures:
+
+Details of how we train the machine learning models are provided in the scripts.
+
+Generally, we follow a two-step procedure:
+
+1. Determine the best hyper-parameters by splitting the training set (80% of the whole dataset) into new training and validation set (80%*80% and 80%*20%).
+
+2. Use the original training set (80% of the whole dataset) and the found best hyper-parameters to train machine learning models and test models' performance by the test set (20% of the whole dataset).
