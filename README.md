@@ -23,3 +23,9 @@ Generally, we follow a two-step procedure:
 1. Determine the best hyper-parameters by splitting the training set (80% of the whole dataset) into new training and validation set (80%*80% and 80%*20%).
 
 2. Use the original training set (80% of the whole dataset) and the found best hyper-parameters to train machine learning models and test models' performance by the test set (20% of the whole dataset).
+
+For the training of CGCNN and ROOST, detailed descriptions of parameters for the two packages are provided at:
+
+CGCNN: https://github.com/txie-93/cgcnn
+
+ROOST: https://github.com/CompRhys/roost
