@@ -24,7 +24,7 @@ Generally, we follow a two-step procedure:
 
 2. Use the original training set (80% of the whole dataset) and the found best hyper-parameters to train machine learning models and test models' performance by the test set (20% of the whole dataset).
 
-For the training of CGCNN and ROOST, detailed descriptions of parameters for the two packages are provided at:
+For the training of CGCNN and ROOST, detailed descriptions of usage, parameters, and input format for the two packages are provided at:
 
 CGCNN: https://github.com/txie-93/cgcnn
 
