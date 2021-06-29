@@ -3,6 +3,9 @@
 This is the repo. to store the code for the project of predicting exp. formation enthalpies by Sheng Gong, Woo Hyun Chae and Runze Liu
 
 **************************
+High-throughput dataset
+
+**************************
 Data collection
 
 1. First, download the materials project database with all materials with formation energy by the materials project API (https://materialsproject.org/open).
